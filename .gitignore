@@ -1,0 +1,62 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env.bak/
+.env.local
+
+# ===========================
+# Environment / Config
+# ===========================
+.env
+*.env
+
+# ===========================
+# Docker
+# ===========================
+# Logs, volumes e artefatos de build
+*.pid
+*.log
+docker-compose.override.yml
+db_data/
+tmp/
+.cache/
+*.bak
+
+# ===========================
+# IDE / Editor
+# ===========================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+*.iml
+
+# ===========================
+# Bytecode / Cache
+# ===========================
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.mypy_cache/
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# ===========================
+# Outros
+# ===========================
+dist/
+build/
+*.egg-info/
